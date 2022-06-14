@@ -9,11 +9,10 @@ services:
     container_name: web
     restart: always
     volumes:
-      - ./magento:/var/www/html
+      - ./magento:/var/www/html:cache
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     ports:
       - "80:80"
-      - "8080:8080"
       - "8022:22"
   # mysql:
   #   image: mysql:5.7
