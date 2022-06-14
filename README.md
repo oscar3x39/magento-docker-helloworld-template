@@ -1,6 +1,4 @@
-# magento-test
-
-# first thing you need to register a account and create access key
+# First thing you need to register a account and create access key
 
 ```
 publickey -> username
@@ -8,7 +6,7 @@ privatekey -> password
 https://marketplace.magento.com/customer/accessKeys/
 ```
 
-Switch to Magento Container
+# Switch to Magento Container
 ```
 apt update -y
 apt install vim -y
